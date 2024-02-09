@@ -90,6 +90,7 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -133,6 +134,47 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+}
+
+.header {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
+section {
+    border: 1px solid black;
+}
+
+h3 {
+    display: inline;
+}
+
+input {
+    width: 80%;
+}
+
+.login {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+}
+
+
+.buttons {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+}
+
 
 img {
     height: 25px;
