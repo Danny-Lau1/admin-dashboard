@@ -77,6 +77,8 @@ body {
     background-color: #d4d4d4;
     padding-left: 20px;
     padding-top: 20px;
+    border-bottom: 10px solid #fde68a;
+
 }
 
 .search img,
@@ -95,9 +97,7 @@ body {
     padding-bottom: 25px;
 }
 
-section {
-    border: 1px solid black;
-}
+
 
 input {
     width: 80%;
@@ -115,18 +115,24 @@ button {
     border: 1px solid black;
     border-radius: 12px;
     color: white;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    margin-right: 10px;
 }
 
 .login {
-    display: grid;
+    padding-right: 20px;
+    text-align: right;
     grid-auto-columns: 1fr;
     grid-auto-flow: column;
+}
+
+.login>img {
+    padding-right: 15px;
 }
 
 .buttons {
@@ -144,6 +150,7 @@ button {
     font-size: 1.5rem;
     color: white;
     padding-top: 20px;
+    border-right: 10px solid #fde68a;
 }
 
 .nav-bar div {
@@ -195,6 +202,11 @@ button {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
+}
+
+.project-template {
+    border-bottom: 5px solid #fde68a;
+
 }
 
 .trending {
