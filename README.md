@@ -2,6 +2,4 @@
 
 Please check out a simple admin dashboard I created! This layout was accomplished using CSS Grid.
 
-### Live Preview
-
- https://danny-lau1.github.io/admin-dashboard/
+## Live Demo HERE: [Admin Dashboard](https://danny-lau1.github.io/admin-dashboard/)
